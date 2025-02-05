@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Simples</title>
+</head>
+<body>
+    <div id="quiz">
+        <h2>Pergunta: Qual é a capital do Brasil?</h2>
+        <button onclick="verificar('Brasília')">Brasília</button>
+        <button onclick="verificar('Rio de Janeiro')">Rio de Janeiro</button>
+    </div>
+    <script>
+        function verificar(resposta) {
+            if(resposta === 'Brasília') {
+                alert('Correto!');
+            } else {
+                alert('Incorreto. Tente novamente!');
+            }
+        }
+    </script>
+</body>
+</html>
